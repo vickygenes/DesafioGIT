@@ -145,3 +145,62 @@ footer{
     margin-top: auto;
     }
     
+    
+    .body__animaciones{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        justify-content: center;
+        display: flex;
+        color: black;  
+        font-size:normal;
+        text-transform: uppercase;
+    }
+    
+    .video__animaciones{
+    height: 100vh;
+    width: auto;
+    object-fit: cover;
+    position: relative;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .h1__animaciones{
+        font-size: 58px;
+        text-align:center;
+        justify-content:space-around;
+        justify-items:center;
+        color: darkolivegreen;
+        text-transform:initial;
+        
+    }
+    .text-1{
+        position: absolute;
+        top: middle;
+        left: middle;
+        text-align: center;
+        justify-content: center;
+        font-size: 90px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 15%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 10px;
+        z-index: 4;
+    }
+    
+    button{
+        height: 90px;
+        width: 100px;
+        background-color:rgb(133, 129, 74);
+        color: white;
+        border-radius: 15px;
+        font-size: 1.3rem;
+    }
+    button:hover{
+        box-shadow: 10px 10px 10px 5px #333;
+        transform: scale(1.2);
+        transition: all 0.8s;
+        cursor: pointer;
+    }
