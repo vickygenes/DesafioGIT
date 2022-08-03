@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:solid;
+    font-style:inherit;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform:capitalize;
+    color: black;   
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(145, 155, 127);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.div__logo{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.h1__index{
+    text-align: left;
+    font-size: normal;
+}
+.h2__class{
+    font-size: smaller;
+}
+
+.h3__galeria{
+    align-items: center;
+    text-align: center;
+    align-content: space-between;
+}
+.ul__galeria{
+    padding: 20px;
+    text-align: center;
+    align-content: space-between;
+    align-items: center;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+form{
+    background-color: rgb(75, 88, 75);
+    border-radius: 10px;
+    color: rgba(156, 93, 93, 0.74);
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 0 auto;
+    width: 290px;
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 280px;
+}
+
+.field{
+    border: solid 1px rgb(70, 43, 43);
+    padding: 10px;
+}
+
+.field:focus{
+    border-color: #323937;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.li__historia{
+    justify-content: space-between;
+}
+
+
+.video__galeria{
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+/*inicio estilos main*/
+.main__nosotros{
+    padding: 20px;
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/*fin estilos main*/
+
+/*inicio estilos nav*/
+.nav__ul{
+    justify-content: space-around;
+    font-size:larger;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 60%;
+    max-width: 100px;
+    margin:auto;   
+    height: 10%;
+}
+
+
+.nav__li{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 40px;
+    display:inline-block;
+    text-align: center;
+}
+
+.nav__li a:hover{
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: rgba(18, 43, 2, 0.578);
+    background-color: rgb(172, 170, 170);
+    border-radius: 3px;
+    padding:10px ;
+    display: block;
+}
+/*fin estilos nav*/
+
+/*inicio estilos main*/
+.main__index{
+    color: black;
+    font-style: initial;
+    justify-items: center;
+    text-align: center;
+}
+/*fin estilos main*/
+
+footer{
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    }
+    
